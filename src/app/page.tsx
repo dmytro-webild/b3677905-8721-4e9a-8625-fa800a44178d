@@ -33,11 +33,11 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         { name: "Home", id: "hero" },
-        { name: "Menu", id: "menu" },
+        { name: "Shop", id: "menu" },
         { name: "About", id: "about" },
         { name: "Contact", id: "contact" },
       ]}
-      brandName="Heritage Lifestyle"
+      brandName="Malachi Clothing"
     />
   </div>
 
@@ -166,11 +166,11 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterBaseReveal
-      logoText="Heritage Lifestyle Restaurant"
+      logoText="Malachi Clothing"
       columns={[
         {
           title: "Navigate",          items: [
-            { label: "Menu", href: "#menu" },
+            { label: "Shop", href: "#menu" },
             { label: "About", href: "#about" },
             { label: "Contact", href: "#contact" },
           ],
@@ -182,7 +182,7 @@ export default function LandingPage() {
           ],
         },
       ]}
-      copyrightText="© 2025 Heritage Lifestyle Restaurant - All Rights Reserved."
+      copyrightText="© 2025 Malachi Clothing - All Rights Reserved."
     />
   </div>
       </ReactLenis>
