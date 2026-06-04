@@ -46,7 +46,7 @@ export default function LandingPage() {
       background={{ variant: "rotated-rays-static-grid" }}
       title="Discover Authentic African Cuisine"
       description="Indulge in the rich flavours of Africa, where tradition meets flair. From breakfast to a la carte, every bite tells a story at Heritage Lifestyle Restaurant."
-      buttons={[{ text: "Order Online", href: "#contact" }]})
+      buttons={[{ text: "Order Online", href: "#contact" }]}
       carouselItems={[
         { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/meatballs-with-vegetables-tomato-sauce_1220-7346.jpg", imageAlt: "Authentic Cuisine" },
         { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/interior-room-with-festive-easter-table_169016-5096.jpg", imageAlt: "Ambiance" },
