@@ -32,10 +32,11 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
-        { name: "Home", id: "hero" },
-        { name: "Shop", id: "menu" },
-        { name: "About", id: "about" },
-        { name: "Contact", id: "contact" },
+        { name: "Home", href: "/" },
+        { name: "Shop", href: "/pricing" },
+        { name: "About", href: "/about" },
+        { name: "Blog", href: "/blog" },
+        { name: "Contact", href: "/contact" }
       ]}
       brandName="Malachi Clothing"
     />
@@ -46,14 +47,14 @@ export default function LandingPage() {
       background={{ variant: "rotated-rays-static-grid" }}
       title="Discover Authentic African Cuisine"
       description="Indulge in the rich flavours of Africa, where tradition meets flair. From breakfast to a la carte, every bite tells a story at Heritage Lifestyle Restaurant."
-      buttons={[{ text: "Order Online", href: "#contact" }]}
+      buttons={[{ text: "Order Online", href: "/contact" }]} 
       carouselItems={[
         { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/meatballs-with-vegetables-tomato-sauce_1220-7346.jpg", imageAlt: "Authentic Cuisine" },
         { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/interior-room-with-festive-easter-table_169016-5096.jpg", imageAlt: "Ambiance" },
         { id: "3", imageSrc: "http://img.b2bpic.net/free-photo/assorted-northern-thai-style-food_1150-6329.jpg", imageAlt: "Signature Dishes" },
         { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/delicious-iced-coffee-arrangement-high-angle_23-2149600731.jpg", imageAlt: "Refreshing Drinks" },
         { id: "5", imageSrc: "http://img.b2bpic.net/free-photo/front-view-beautiful-baby-shower-concept_23-2148731320.jpg", imageAlt: "Events Venue" },
-        { id: "6", imageSrc: "http://img.b2bpic.net/free-photo/person-holding-bowl-mustard-seed-near-fresh-vegetables-container-black-wooden-table_23-2147944279.jpg", imageAlt: "Fresh Ingredients" },
+        { id: "6", imageSrc: "http://img.b2bpic.net/free-photo/person-holding-bowl-mustard-seed-near-fresh-vegetables-container-black-wooden-table_23-2147944279.jpg", imageAlt: "Fresh Ingredients" }
       ]}
     />
   </div>
@@ -65,7 +66,7 @@ export default function LandingPage() {
       metrics={[
         { label: "Fresh Ingredients", value: "100%", icon: Leaf },
         { label: "Traditional Recipes", value: "30+", icon: Award },
-        { label: "Satisfied Guests", value: "5k+", icon: Users },
+        { label: "Satisfied Guests", value: "5k+", icon: Users }
       ]}
       metricsAnimation="blur-reveal"
     />
@@ -79,7 +80,7 @@ export default function LandingPage() {
         { title: "Fresh & Nutritious", description: "We source the finest local ingredients to create wholesome meals.", imageSrc: "http://img.b2bpic.net/free-photo/grated-red-cabbage-greens-carrots-bowl-marble_114579-65086.jpg", buttonIcon: Check },
         { title: "Catering Services", description: "Let us host your birthday celebrations, weddings, or corporate events.", imageSrc: "http://img.b2bpic.net/free-photo/meat-catering-table-event_8353-9847.jpg", buttonIcon: PartyPopper },
         { title: "Warm Atmosphere", description: "Providing a welcoming space that makes you feel right at home.", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-senior-people-chatting-indoors_23-2149365810.jpg", buttonIcon: Heart },
-        { title: "Easy Ordering", description: "Download our app for convenient mobile ordering and exclusive updates.", imageSrc: "http://img.b2bpic.net/free-photo/still-life-delicious-fried-croquette-composition-with-smartphone_23-2149198994.jpg", buttonIcon: Smartphone },
+        { title: "Easy Ordering", description: "Download our app for convenient mobile ordering and exclusive updates.", imageSrc: "http://img.b2bpic.net/free-photo/still-life-delicious-fried-croquette-composition-with-smartphone_23-2149198994.jpg", buttonIcon: Smartphone }
       ]}
       title="Why Choose Us"
       description="Experience food that is not only delicious but also nutritious."
@@ -98,7 +99,7 @@ export default function LandingPage() {
         { id: "3", name: "Garden Salad", price: "R85", imageSrc: "http://img.b2bpic.net/free-photo/man-hands-holding-big-deep-plate-full-healthy-paleo-vegetarian-salad-made-from-fresh-organic-biological-ingredients-vegetables-fruits-berries-other-nutritional-things_346278-1353.jpg" },
         { id: "4", name: "Signature Pasta", price: "R110", imageSrc: "http://img.b2bpic.net/free-photo/rotini-pasta-salad-with-arugula-cherry-tomatoes-healthy-summer-dish_53876-103649.jpg" },
         { id: "5", name: "Fresh Fruit Cooler", price: "R45", imageSrc: "http://img.b2bpic.net/free-photo/two-glasses-refreshing-green-juice-with-ice-mint-leaves_84443-94480.jpg" },
-        { id: "6", name: "Traditional Dessert", price: "R60", imageSrc: "http://img.b2bpic.net/free-photo/delicious-sweet-homemade-desserts_140725-114786.jpg" },
+        { id: "6", name: "Traditional Dessert", price: "R60", imageSrc: "http://img.b2bpic.net/free-photo/delicious-sweet-homemade-desserts_140725-114786.jpg" }
       ]}
       title="Our Signature Menu"
       description="Explore a variety of traditional recipes reflecting African culinary roots."
@@ -114,7 +115,7 @@ export default function LandingPage() {
       metrics={[
         { id: "1", value: "Daily", title: "Mon - Sun", description: "08:00 – 02:00", icon: Clock },
         { id: "2", value: "Arcadia", title: "Location", description: "213 Eastwood St, Pretoria", icon: MapPin },
-        { id: "3", value: "Contact", title: "WhatsApp", description: "012 994 4342", icon: Phone },
+        { id: "3", value: "Contact", title: "WhatsApp", description: "012 994 4342", icon: Phone }
       ]}
       title="Hours of Operation"
       description="Visit us seven days a week for an unforgettable experience."
@@ -131,7 +132,7 @@ export default function LandingPage() {
         { id: "2", name: "Michael K.", handle: "@mke", testimonial: "Best African dishes in Pretoria. Highly recommend the signature stew.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/couple-having-date-together-luxurious-restaurant_23-2150517442.jpg" },
         { id: "3", name: "Emily R.", handle: "@emilyr", testimonial: "Such a warm welcoming place, perfect for our birthday celebration.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-friends-having-cocktails_23-2150244939.jpg" },
         { id: "4", name: "David M.", handle: "@dm", testimonial: "Great prices and wonderful service every time we visit.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/small-business-concept-handsome-businessman-cafe-owner-sitting-near-counter-with-laptop-smartphone-working-coffee-shop_1258-314430.jpg" },
-        { id: "5", name: "Lisa G.", handle: "@lisag", testimonial: "Authentic flavors that truly taste like home. Fantastic experience.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/boy-having-beer-restaurant_23-2148172694.jpg" },
+        { id: "5", name: "Lisa G.", handle: "@lisag", testimonial: "Authentic flavors that truly taste like home. Fantastic experience.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/boy-having-beer-restaurant_23-2148172694.jpg" }
       ]}
       showRating={true}
       title="Guest Reviews"
@@ -146,7 +147,7 @@ export default function LandingPage() {
       faqs={[
         { id: "1", title: "Do you accept bookings?", content: "Yes, we accept bookings for all occasions. Please contact us on WhatsApp to secure your table." },
         { id: "2", title: "Do you provide catering?", content: "Absolutely! We cater for birthday celebrations, weddings, and corporate events." },
-        { id: "3", title: "Are you open on weekends?", content: "Yes, we are open every day from 08:00 to 02:00 including weekends." },
+        { id: "3", title: "Are you open on weekends?", content: "Yes, we are open every day from 08:00 to 02:00 including weekends." }
       ]}
       title="Frequently Asked"
       faqsAnimation="blur-reveal"
@@ -173,17 +174,18 @@ export default function LandingPage() {
       columns={[
         {
           title: "Navigate",          items: [
-            { label: "Shop", href: "#menu" },
-            { label: "About", href: "#about" },
-            { label: "Contact", href: "#contact" },
-          ],
+            { label: "Shop", href: "/pricing" },
+            { label: "About", href: "/about" },
+            { label: "Blog", href: "/blog" },
+            { label: "Contact", href: "/contact" }
+          ]
         },
         {
           title: "Support",          items: [
             { label: "Privacy Policy", href: "#" },
-            { label: "Terms of Service", href: "#" },
-          ],
-        },
+            { label: "Terms of Service", href: "#" }
+          ]
+        }
       ]}
       copyrightText="© 2025 Malachi Clothing - All Rights Reserved."
     />
