@@ -32,11 +32,11 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
-        { name: "Home", href: "/" },
-        { name: "Shop", href: "/pricing" },
-        { name: "About", href: "/about" },
-        { name: "Blog", href: "/blog" },
-        { name: "Contact", href: "/contact" }
+        { name: "Home", id: "/" },
+        { name: "Shop", id: "/pricing" },
+        { name: "About", id: "/about" },
+        { name: "Blog", id: "/blog" },
+        { name: "Contact", id: "/contact" }
       ]}
       brandName="Malachi Clothing"
     />
