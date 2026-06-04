@@ -25,11 +25,11 @@ export default function AboutPage() {
         <div id="nav" data-section="nav">
           <NavbarStyleCentered
             navItems={[
-              { name: "Home", href: "/" },
-              { name: "Shop", href: "/pricing" },
-              { name: "About", href: "/about" },
-              { name: "Blog", href: "/blog" },
-              { name: "Contact", href: "/contact" },
+              { name: "Home", id: "/" },
+              { name: "Shop", id: "/pricing" },
+              { name: "About", id: "/about" },
+              { name: "Blog", id: "/blog" },
+              { name: "Contact", id: "/contact" }
             ]}
             brandName="Malachi Clothing"
           />
@@ -45,7 +45,7 @@ export default function AboutPage() {
             bulletPoints={[
               { title: "Authentic Recipes", description: "Our chefs meticulously prepare dishes using time-honored family recipes.", icon: Utensils },
               { title: "Fresh Sourcing", description: "We partner with local farmers to ensure the freshest ingredients from farm to table.", icon: Leaf },
-              { title: "Culinary Excellence", description: "Dedicated to providing an exceptional dining experience with every dish.", icon: ChefHat },
+              { title: "Culinary Excellence", description: "Dedicated to providing an exceptional dining experience with every dish.", icon: ChefHat }
             ]}
             imageSrc="http://img.b2bpic.net/free-photo/chefs-restaurant-kitchen_1303-12828.jpg"
             imageAlt="Chefs in a kitchen"
@@ -62,15 +62,15 @@ export default function AboutPage() {
                   { label: "Shop", href: "/pricing" },
                   { label: "About", href: "/about" },
                   { label: "Blog", href: "/blog" },
-                  { label: "Contact", href: "/contact" },
-                ],
+                  { label: "Contact", href: "/contact" }
+                ]
               },
               {
                 title: "Support",                items: [
                   { label: "Privacy Policy", href: "#" },
-                  { label: "Terms of Service", href: "#" },
-                ],
-              },
+                  { label: "Terms of Service", href: "#" }
+                ]
+              }
             ]}
             copyrightText="© 2025 Malachi Clothing - All Rights Reserved."
           />
