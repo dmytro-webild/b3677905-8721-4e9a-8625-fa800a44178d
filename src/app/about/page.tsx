@@ -31,7 +31,7 @@ export default function AboutPage() {
               { name: "Blog", id: "/blog" },
               { name: "Contact", id: "/contact" }
             ]}
-            brandName="Malachi Clothing"
+            brandName="Heritage Lifestyle"
           />
         </div>
 
@@ -55,7 +55,7 @@ export default function AboutPage() {
 
         <div id="footer" data-section="footer">
           <FooterBaseReveal
-            logoText="Malachi Clothing"
+            logoText="Heritage Lifestyle"
             columns={[
               {
                 title: "Navigate",                items: [
@@ -72,7 +72,7 @@ export default function AboutPage() {
                 ]
               }
             ]}
-            copyrightText="© 2025 Malachi Clothing - All Rights Reserved."
+            copyrightText="© 2025 Heritage Lifestyle - All Rights Reserved."
           />
         </div>
       </ReactLenis>
